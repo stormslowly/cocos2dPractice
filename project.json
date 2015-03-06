@@ -13,6 +13,7 @@
 	"jsList": [
 		"src/resource.js",
 		"src/HelloScene.js",
+		"src/PlayScene.js",
 		"src/app.js"
 	]
 }

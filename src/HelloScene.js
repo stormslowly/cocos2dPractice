@@ -21,6 +21,7 @@ var HelloLayer = cc.Layer.extend({
   },
   startGame: function() {
     console.log('logs', 'ckicked start');
+    cc.director.runScene(new Test());
   }
 });
 
