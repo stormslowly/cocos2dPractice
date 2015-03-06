@@ -1,8 +1,8 @@
 'use strict';
 var res = {
-  HelloWorld_png: 'res/HelloWorld.png',
-  CloseNormal_png: 'res/CloseNormal.png',
-  CloseSelected_png: 'res/CloseSelected.png'
+  helloBG_png: 'res/helloBG.png',
+  startNormal_png: 'res/start_n.png',
+  startClick_png: 'res/start_s.png'
 };
 
 var g_resources = [];
