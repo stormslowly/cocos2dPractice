@@ -10,7 +10,6 @@ var Test = cc.Layer.extend({
 
     this.addChild(letsplay);
 
-
   }
 });
 
@@ -18,6 +17,7 @@ var Test = cc.Layer.extend({
 var PlayScene = cc.Scene.extend({
   onEnter: function() {
     this._super();
+    this.addChild(new StatusLayer());
     this.addChild(new Test());
   }
 });
