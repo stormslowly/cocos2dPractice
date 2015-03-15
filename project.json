@@ -12,7 +12,10 @@
 
 	"jsList": [
 		"src/resource.js",
+		"src/utils.js",
 		"src/StatusLayer.js",
+		"src/BackgroudLayer.js",
+		"src/AnimationLayer.js",
 		"src/HelloScene.js",
 		"src/PlayScene.js",
 		"src/app.js"

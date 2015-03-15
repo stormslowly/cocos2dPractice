@@ -10,12 +10,12 @@ var StatusLayer = cc.Layer.extend({
     coinLable.setAnchorPoint(cc.p(0, 0.5));
     coinLable.setPosition(cc.p(20, winSize.height - 30));
 
-    var meters = new cc.LabelTTF('0 M', 'Helvetica', 30);
-    meters.setColor(cc.color(33, 255, 255));
-    meters.setAnchorPoint(cc.p(1, 0.5));
-    meters.setPosition(cc.p(winSize.width - 30, winSize.height - 30));
+    var meterLabel = new cc.LabelTTF('100 M', 'Helvetica', 30);
+    meterLabel.setColor(cc.color(33, 255, 255));
+    meterLabel.setAnchorPoint(cc.p(1, 0.5));
+    meterLabel.setPosition(cc.p(winSize.width - 30, winSize.height - 30));
 
     this.addChild(coinLable);
-    this.addChild(meters);
+    this.addChild(meterLabel);
   }
 });
