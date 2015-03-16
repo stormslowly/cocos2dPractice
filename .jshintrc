@@ -1,7 +1,8 @@
 {
 	"node": true,
 	"globals": {
-		"cc": true
+		"cc": true,
+		"cp":true
 	}
 
 }

@@ -1,8 +1,10 @@
 'use strict';
 /*global res,Utils*/
 var AnimationLayer = cc.Layer.extend({
-  ctor: function() {
+  ctor: function(space) {
     this._super();
+    this.space = space;
+
 
     cc.spriteFrameCache.addSpriteFrames(res.running_plist);
 
@@ -16,6 +18,8 @@ var AnimationLayer = cc.Layer.extend({
       x: 100,
       y: 85
     });
+
+
 
     var runningAnimation = new cc.Animation(runnerFrames, 0.1);
 
